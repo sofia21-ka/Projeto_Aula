@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/imgns/Imagem-Blog.png" type="Imagem-Blog/x-icon">
+    <link rel="stylesheet" href="/estilo/style.css">
+    
+    <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Aula</title>
+</head>
+<body>
+    <header class="container">
+       <img src="/imgns/GRENAGNS.png" alt="logo" width="300rem" > 
+        <div class="menu">
+            <a href="">HOME</a>
+            <a href="">EMPRESA</a>
+            <a href="">CONTATO</a>
+        </div>
+        <div class="hamburguer">
+            <i class="fa fa-bars"></i>
+
+        </div>
+    
+    </header>
+    <nav class="mobile-menu">
+        <a href="">HOME</a>
+        <a href="">EMPRESA</a>
+        <a href="">CONTATO</a>
+
+
+    </nav>
+   <main class="meio">
+        <div class="card">
+            <p>"Sempre teremos Ciência, Tecnologia, Engenharia e Matemática conosco.
+                 Algumas coisas sairão dos olhos do público e irão embora, 
+                 mas sempre haverá ciência,engenharia e tecnologia. 
+                 E sempre, sempre haverá matemática.”
+                  <br></p>
+               
+        <span id="botao">Saiba mais</span>
+
+        </div>
+   </main> 
+   <section class="cell">
+        <img src="/imgns/cll.png" alt="" width="250" height="250">
+        <img src="/imgns/cllrs.png" alt="" width="280" height="250">
+        <img src="/imgns/Celular-PNG.webp" alt="" width="250" height="250">
+   </section>
+   <section class="info">
+    <p>A tecnologia moderna é capaz de realizar a produção sem emprego. O diabo é que 
+        a economia moderna não consegue inventar o consumo sem salário.</p><br>
+        <span id="botao">Saiba mais</span>
+
+   </section>
+   <footer class="rodape">
+    <i class="fa fa-facebook"> </i> Facebook <br>
+    <i class="fa fa-instagram"></i> Instagram <br>
+    <i class="fa fa-whatsapp"></i> Whatsapp
+   </footer>
+   <script>
+
+    const hamburguer = document.querySelector('.hamburguer')
+    const mobileMenu = document.querySelector('.mobile-menu')
+    hamburguer.addEventListener('click',() => {
+        mobileMenu.classList.toggle('active')
+    })
+
+   </script>
+</body>
+</html>
